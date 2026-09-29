@@ -1,0 +1,7 @@
+{
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "dimension": 384,
+  "normalized": true,
+  "metric": "Inner Product / Cosine Similarity",
+  "num_vectors": 1509
+}

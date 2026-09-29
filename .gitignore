@@ -1,0 +1,58 @@
+# Flutter / Dart generated files
+ui/.dart_tool/
+ui/build/
+ui/**/build/
+ui/.flutter-plugins
+ui/.flutter-plugins-dependencies
+ui/.packages
+
+# Android / iOS / macOS generated files
+ui/android/.gradle/
+ui/android/local.properties
+ui/ios/Pods/
+ui/ios/.symlinks/
+ui/ios/Flutter/ephemeral/
+ui/macos/Pods/
+ui/macos/Flutter/ephemeral/
+
+# IDE / user-specific files
+ui/.idea/
+ui/**/xcuserdata/
+ui/**/.idea/
+
+# Python
+pipeline/__pycache__/
+pipeline/**/__pycache__/
+pipeline/*.pyc
+ui/backend/__pycache__/
+
+# Jupyter
+pipeline/**/.ipynb_checkpoints/
+
+# Python environments
+pipeline/.venv/
+pipeline/venv/
+pipeline/env/
+
+# Generated outputs
+pipeline/outputs/
+
+# Secrets
+.env
+*.env
+*.key
+*.pem
+
+# macOS
+.DS_Store
+
+# Large model files
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Flutter-generated iOS configuration
+ui/ios/Flutter/Generated.xcconfig
+ui/ios/Flutter/flutter_export_environment.sh

@@ -1,0 +1,31 @@
+run,language,asr_latency_ms,asr_text,wer,cer,asr_accuracy_percent,normalized_text,indic_to_english_latency_ms,english_query,rag_latency_ms,retrieved_chunks,rag_top1_bge_score,rag_mean_bge_score,rag_min_bge_score,rag_max_bge_score,rag_bm25_coverage_percent,rag_mean_bm25_rank,rag_top1_bm25_rank,llm_latency_ms,llm_generation_wrapper_latency_ms,llm_input_tokens,llm_output_tokens,llm_total_tokens,english_answer,english_to_indic_latency_ms,tts_latency_ms,end_to_end_latency_ms
+1,ta,130.96087500161957,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,0.0,0.0,100.0,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,8226.860583992675,what is the multi state cooperative societies act,207.10041699931026,3,0.8571373224258423,0.8486011823018392,0.8335874080657959,0.8571373224258423,33.33333333333333,3.0,,2502.8762909932993,2505.14262499928,2471,129,2600,"The Multi-State Co-operative Societies Act, 1984 is a law that governs the formation,
+management, and operation of multi-state co-operative societies in India. It was passed by the
+Parliament of India in 1984 and came into effect on 19th August, 2002. The Act aims to
+promote the growth of multi-state co-operative societies by providing a framework for their
+registration, operation, and management. It also aims to protect the interests of members of
+these societies and to promote the growth of the co-operative movement in India.",24345.84462500061,1590.4128750116797,37011.443208990386
+2,ta,213.47004199924413,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,0.0,0.0,100.0,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,9072.252750003827,what is the multi state cooperative societies act,193.22120799915865,3,0.8571373224258423,0.8486011823018392,0.8335874080657959,0.8571373224258423,33.33333333333333,3.0,,2600.532291995478,2600.919000004069,2471,129,2600,"The Multi-State Co-operative Societies Act, 1984 is a law that governs the formation,
+management, and operation of multi-state co-operative societies in India. It was passed by the
+Parliament of India in 1984 and came into effect on 19th August, 2002. The Act aims to
+promote the growth of multi-state co-operative societies by providing a framework for their
+registration, operation, and management. It also aims to protect the interests of members of
+these societies and to promote the growth of the co-operative movement in India.",22052.182957995683,1156.759375007823,35289.44316699926
+3,ta,127.69070800277404,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,0.0,0.0,100.0,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,8169.531916995766,what is the multi state cooperative societies act,216.97858400875703,3,0.8571373224258423,0.8486011823018392,0.8335874080657959,0.8571373224258423,33.33333333333333,3.0,,2560.054040994146,2560.464583002613,2471,129,2600,"The Multi-State Co-operative Societies Act, 1984 is a law that governs the formation,
+management, and operation of multi-state co-operative societies in India. It was passed by the
+Parliament of India in 1984 and came into effect on 19th August, 2002. The Act aims to
+promote the growth of multi-state co-operative societies by providing a framework for their
+registration, operation, and management. It also aims to protect the interests of members of
+these societies and to promote the growth of the co-operative movement in India.",21731.34250000294,1103.200541008846,33909.68204199453
+4,ta,107.74991699145176,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,0.0,0.0,100.0,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,7903.527457994642,what is the multi state cooperative societies act,198.62675000331365,3,0.8571373224258423,0.8486011823018392,0.8335874080657959,0.8571373224258423,33.33333333333333,3.0,,2502.2429169912357,2502.7372920012567,2471,129,2600,"The Multi-State Co-operative Societies Act, 1984 is a law that governs the formation,
+management, and operation of multi-state co-operative societies in India. It was passed by the
+Parliament of India in 1984 and came into effect on 19th August, 2002. The Act aims to
+promote the growth of multi-state co-operative societies by providing a framework for their
+registration, operation, and management. It also aims to protect the interests of members of
+these societies and to promote the growth of the co-operative movement in India.",21814.377707996755,1214.898375008488,33742.34683299437
+5,ta,126.09620801231358,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,0.0,0.0,100.0,பல மாநில கூட்டுறவு சங்கங்கள் சட்டம் என்றால் என்ன,8024.402666997048,what is the multi state cooperative societies act,216.88395799719729,3,0.8571373224258423,0.8486011823018392,0.8335874080657959,0.8571373224258423,33.33333333333333,3.0,,2555.0684579939116,2555.5968749977183,2471,129,2600,"The Multi-State Co-operative Societies Act, 1984 is a law that governs the formation,
+management, and operation of multi-state co-operative societies in India. It was passed by the
+Parliament of India in 1984 and came into effect on 19th August, 2002. The Act aims to
+promote the growth of multi-state co-operative societies by providing a framework for their
+registration, operation, and management. It also aims to protect the interests of members of
+these societies and to promote the growth of the co-operative movement in India.",23727.126750003663,1125.0919589947443,35775.65795798728
