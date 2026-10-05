@@ -71,7 +71,7 @@ class KioskFrame extends StatelessWidget {
           const Icon(Icons.account_balance, color: Colors.white, size: 24),
           const SizedBox(width: 10),
           const Text(
-            'Cooperative Sahayak',
+            'SarVani',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,

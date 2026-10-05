@@ -1,6 +1,6 @@
 # Linux Deployment Guide: Jetson Orin Nano 8 Developer Kit
 
-This guide covers building, configuring, and deploying the **Cooperative Sahayak** Flutter application on a Linux device—specifically the **NVIDIA Jetson Orin Nano 8 Developer Kit** running JetPack Linux (Ubuntu 20.04 or 22.04 LTS, ARM64 / aarch64).
+This guide covers building, configuring, and deploying the **SarVani** Flutter application on a Linux device—specifically the **NVIDIA Jetson Orin Nano 8 Developer Kit** running JetPack Linux (Ubuntu 20.04 or 22.04 LTS, ARM64 / aarch64).
 
 ---
 
@@ -72,7 +72,7 @@ The compiled standalone executable and bundle will be generated in:
 To run the binary directly on your touchscreen connected to the Jetson Orin Nano:
 
 ```bash
-./build/linux/arm64/release/bundle/cooperative_sahayak
+./build/linux/arm64/release/bundle/sarvani
 ```
 
 To auto-start the application on boot as a systemd service in kiosk mode:
@@ -80,13 +80,13 @@ To auto-start the application on boot as a systemd service in kiosk mode:
 1. Create a service unit file at `/etc/systemd/system/pacs-kiosk.service`:
    ```ini
    [Unit]
-   Description=Cooperative Sahayak PACS Kiosk Service
+   Description=SarVani PACS Kiosk Service
    After=graphical.target
 
    [Service]
    Environment=DISPLAY=:0
    Environment=XAUTHORITY=/home/jetson/.Xauthority
-   ExecStart=/path/to/cooperative_sahayak/build/linux/arm64/release/bundle/cooperative_sahayak
+   ExecStart=/path/to/sarvani/build/linux/arm64/release/bundle/sarvani
    Restart=always
    User=jetson
 

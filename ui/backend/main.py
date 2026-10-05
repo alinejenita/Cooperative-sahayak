@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).parent.resolve()))
 import pipeline
 
 app = FastAPI(
-    title="Cooperative Sahayak Notebook Inference API",
+    title="SarVani Notebook Inference API",
     version="1.0.0",
 )
 
@@ -33,7 +33,7 @@ app.mount("/audio", StaticFiles(directory=str(TTS_OUTPUT_DIR)), name="audio")
 def read_root():
     return {
         "status": "online",
-        "service": "Cooperative Sahayak Notebook Pipeline Backend",
+        "service": "SarVani Notebook Pipeline Backend",
         "supported_languages": pipeline.SUPPORTED_LANGS,
     }
 

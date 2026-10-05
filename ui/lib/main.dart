@@ -9,17 +9,17 @@ import 'screens/s03_processing_screen.dart';
 import 'screens/s04_answer_screen.dart';
 
 void main() {
-  runApp(const CooperativeSahayakApp());
+  runApp(const SarVaniApp());
 }
 
-class CooperativeSahayakApp extends StatefulWidget {
-  const CooperativeSahayakApp({super.key});
+class SarVaniApp extends StatefulWidget {
+  const SarVaniApp({super.key});
 
   @override
-  State<CooperativeSahayakApp> createState() => _CooperativeSahayakAppState();
+  State<SarVaniApp> createState() => _SarVaniAppState();
 }
 
-class _CooperativeSahayakAppState extends State<CooperativeSahayakApp> {
+class _SarVaniAppState extends State<SarVaniApp> {
   final KioskStateNotifier _stateNotifier = KioskStateNotifier();
 
   @override
@@ -58,7 +58,7 @@ class _CooperativeSahayakAppState extends State<CooperativeSahayakApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Cooperative Sahayak',
+      title: 'SarVani',
       debugShowCheckedModeBanner: false,
       theme: KioskTheme.theme,
       home: KioskFrame(

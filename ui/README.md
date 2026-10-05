@@ -1,4 +1,4 @@
-# 🏛️ Cooperative Sahayak (கூட்டுறவு சகாயக் / सहकारी सहायक)
+# 🏛️ SarVani (கூட்டுறவு சகாயக் / सहकारी सहायक)
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.9+-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -8,7 +8,7 @@
 
 > **Domain-Specific Multilingual AI Voice Kiosk for Indian Cooperative Societies & Governance**
 
-**Cooperative Sahayak** is an offline-capable, voice-first AI Assistant and Kiosk application designed to empower citizens, farmers, and members of Primary Agricultural Credit Societies (PACS) and Multi-State Cooperative Societies. It provides zero-barrier, instant voice access to complex legal, regulatory, operational, and scheme-related information in regional Indian languages.
+**SarVani** is an offline-capable, voice-first AI Assistant and Kiosk application designed to empower citizens, farmers, and members of Primary Agricultural Credit Societies (PACS) and Multi-State Cooperative Societies. It provides zero-barrier, instant voice access to complex legal, regulatory, operational, and scheme-related information in regional Indian languages.
 
 ---
 
@@ -25,7 +25,7 @@
 
 ## 🏗️ System Architecture & AI Pipeline
 
-Cooperative Sahayak operates using a decoupled **Flutter Touchscreen Kiosk Frontend** and a **FastAPI Multi-Stage AI Backend**.
+SarVani operates using a decoupled **Flutter Touchscreen Kiosk Frontend** and a **FastAPI Multi-Stage AI Backend**.
 
 ```mermaid
 flowchart TD
@@ -53,7 +53,7 @@ flowchart TD
 ## 📁 Repository Structure
 
 ```
-cooperative_sahayak/
+ui/
 ├── assets/                  # Offline Noto & Roboto TTF fonts for Indic scripts
 │   └── fonts/
 ├── backend/                 # FastAPI server & AI pipeline

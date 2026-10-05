@@ -23,7 +23,7 @@ class KioskLocalizations {
 
   static final Map<String, Map<String, String>> _localizedValues = {
     'en': {
-      'appName': 'Cooperative Sahayak',
+      'appName': 'SarVani',
       'chooseLanguage': 'Choose your language',
       'touchToBegin': 'Touch your language to begin',
       'askQuestion': 'Ask your question',
@@ -72,7 +72,7 @@ class KioskLocalizations {
       'help3': 'Grievance Period: 15-day mandatory resolution timeframe.',
     },
     'ta': {
-      'appName': 'Cooperative Sahayak',
+      'appName': 'SarVani',
       'chooseLanguage': 'உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்',
       'touchToBegin': 'தொடங்க மொழியைத் தொடவும்',
       'askQuestion': 'உங்கள் கேள்வியைக் கேளுங்கள்',
@@ -121,7 +121,7 @@ class KioskLocalizations {
       'help3': 'புகார் தீர்வு காலம்: 15 நாட்கள் கட்டாய காலக்கெடு.',
     },
     'hi': {
-      'appName': 'Cooperative Sahayak',
+      'appName': 'SarVani',
       'chooseLanguage': 'अपनी भाषा चुनें',
       'touchToBegin': 'प्रारंभ करने के लिए भाषा को छुएं',
       'askQuestion': 'अपना प्रश्न पूछें',
@@ -170,7 +170,7 @@ class KioskLocalizations {
       'help3': 'शिकायत निवारण अवधि: 15 दिनों की सीमा।',
     },
     'te': {
-      'appName': 'Cooperative Sahayak',
+      'appName': 'SarVani',
       'chooseLanguage': 'మీ భాషను ఎంచుకోండి',
       'touchToBegin': 'ప్రారంభించడానికి మీ భాషను తాకండి',
       'askQuestion': 'మీ ప్రశ్నను అడగండి',
@@ -219,7 +219,7 @@ class KioskLocalizations {
       'help3': 'ఫిర్యాదు పరిష్కార సమయం: 15 రోజులు.',
     },
     'ml': {
-      'appName': 'Cooperative Sahayak',
+      'appName': 'SarVani',
       'chooseLanguage': 'നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക',
       'touchToBegin': 'തുടങ്ങാൻ ഭാഷയിൽ തൊടുക',
       'askQuestion': 'നിങ്ങളുടെ ചോദ്യം ചോദിക്കുക',
@@ -268,7 +268,7 @@ class KioskLocalizations {
       'help3': 'പരാതി പരിഹാര സമയം: 15 ദിവസം.',
     },
     'kn': {
-      'appName': 'Cooperative Sahayak',
+      'appName': 'SarVani',
       'chooseLanguage': 'ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ',
       'touchToBegin': 'ಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಸ್ಪರ್ಶಿಸಿ',
       'askQuestion': 'ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ',

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:cooperative_sahayak/main.dart';
+import 'package:sarvani/main.dart';
 
 void main() {
-  testWidgets('Cooperative Sahayak kiosk renders language selection and touches to proceed with localized UI', (WidgetTester tester) async {
+  testWidgets('SarVani kiosk renders language selection and touches to proceed with localized UI', (WidgetTester tester) async {
     // Set surface size for HD Touchscreen kiosk view
     tester.view.physicalSize = const Size(1024, 768);
     tester.view.devicePixelRatio = 1.0;
     addTearDown(tester.view.resetPhysicalSize);
 
-    await tester.pumpWidget(const CooperativeSahayakApp());
+    await tester.pumpWidget(const SarVaniApp());
     await tester.pumpAndSettle();
 
-    // App name MUST always be in English: Cooperative Sahayak
-    expect(find.textContaining('Cooperative Sahayak'), findsWidgets);
+    // App name MUST always be in English: SarVani
+    expect(find.textContaining('SarVani'), findsWidgets);
     expect(find.textContaining('தமிழ்'), findsWidgets);
     expect(find.textContaining('ಕನ್ನಡ'), findsWidgets);
 

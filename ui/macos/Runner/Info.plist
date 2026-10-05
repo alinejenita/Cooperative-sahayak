@@ -29,6 +29,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Cooperative Sahayak requires microphone access to record your voice queries and save them as MP3 audio files.</string>
+	<string>SarVani requires microphone access to record your voice queries and save them as MP3 audio files.</string>
 </dict>
 </plist>

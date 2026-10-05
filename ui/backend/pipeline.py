@@ -386,7 +386,7 @@ def generate_grounded_answer(english_query, results):
     if not context:
         return RAG_FALLBACK
 
-    prompt = f"""You are Cooperative Sahayak, a grounded information assistant.
+    prompt = f"""You are SarVani, a grounded information assistant.
 
 Answer the user's question ONLY using the retrieved source text below.
 
@@ -424,7 +424,7 @@ ANSWER:
     answer = clean_navarasa_answer(answer)
 
     if not is_complete_answer(answer):
-        retry_prompt = f"""You are Cooperative Sahayak.
+        retry_prompt = f"""You are SarVani.
 
 Produce a COMPLETE answer to the user's question using ONLY the retrieved
 source text.

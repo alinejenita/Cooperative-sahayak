@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:cooperative_sahayak/models/kiosk_state.dart';
-import 'package:cooperative_sahayak/services/audio_recorder_service.dart';
-import 'package:cooperative_sahayak/services/audio_player_service.dart';
+import 'package:sarvani/models/kiosk_state.dart';
+import 'package:sarvani/services/audio_recorder_service.dart';
+import 'package:sarvani/services/audio_player_service.dart';
 import 'package:record/record.dart';
 import 'package:audioplayers/audioplayers.dart';
 
